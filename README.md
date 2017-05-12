@@ -262,11 +262,38 @@ Code that is used during program development to assist with development and debu
 temporary variable
 A variable used to store an intermediate value in a complex calculation.
 
-
+Using a main function
+    -   main block _main_
+        - test code by calling it over and over again
+        
 #Styles
     -   use 4 spaces for indentation
     -   imports should go at the top of the file
     -   separate function definitions with two blank lines
     -   keep function definitions together
     -   keep top level statements, including function         calls, together at the bottom of the program
+        
+Making Decisions with Conditions
+Making decisions
+    - conditions
+        -true  and false
+            - true do this
+            - false do that
+    Booleans
+        = boleans are special data types (bool in python) that signify True and FAlse
+            - must be capitalized
+            - are not strings; True is different from "true"
+            - Are the result of certain arithmatic comparison expressions
+                print(type(True))
+                IS A TYPE
+        -combine boolean values in ways using (and, or and not) that match our natural language usage of combining different conditions
+    IF/else statements
+        -  if (conditions):
+                code block # 1
+        -   else:
+                code block # 2
+        -   Elif:
+                can check a bunch of stuff in on if else clause. 
+        if/else statements
+            - only exacutes what ever is true first.
         
